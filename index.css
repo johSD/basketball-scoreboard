@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.score{
+    background-color: black;
+    color: white;
+    width: 120px;
+    margin: 20px;
+    font-size: 90px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto auto;
+}
+
+.button {
+    background-color: none;
+}
