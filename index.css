@@ -6,11 +6,15 @@ body {
 
 .score{
     background-color: black;
-    color: white;
-    width: 120px;
+    color: F94F6D;
+    width: 155px;
+    height: 120px;
     margin: 20px;
+    padding: 25px 0 0 5px;
     font-size: 90px;
     border-radius: 20px;
+    border: 3px solid #FFFF;
+    font-family: "CursedTimer";
     
 }
 .container {
@@ -18,14 +22,51 @@ body {
     justify-content: space-around;
     margin:auto auto;
     align-items: center;
-    background-color: blue;
+    background-color: #1B244A;
     width: 600px;
-    height: 250px;
-    gap: 20px;
+    height: 300px;
+    border: 5px solid #FFFF;
+
+    
 }
 
 .button {
     background-color: none;
     justify-self: unset;
+
+}
+.single-btn{
+    border: 1px solid white;
+    background-color:#1B244A ;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 30px;
+    font-family: "CursedTimer";
+    border-radius: 10px;
 }
 
+#newgame{
+    padding: 10px;
+    margin: -100px -100px -330px;
+    
+}
+.title{
+    color: white;
+    width: 202px;
+}
+
+#newgame-btn{
+    padding: 10px;
+    border: 1px solid white;
+    background-color:#1B244A ;
+    color:#FFFF;
+    border-radius: 5px;
+    font-size: large;
+
+}
+
+@font-face {
+    font-family: "CursedTimer";
+    src: url("basketball-scoreboard/fontfile/CursedTimerUlil-Aznm.ttf")  
+}
